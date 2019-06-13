@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Energy Ransoms LLC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styler.css">
+
+</head>
+<body>
+
+<div class="header">
+  <h1><em>Energy Ransoms Limited</em></h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="index1.html">Home</a></li>
+      <li>About Us</li>
+      <li><a href="Contact1.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+
+<button class="accordion">Who we Are</button>
+<div class="panel">
+  <p>We are a leading natural resources and processed natural resources company in Nigeria.  By "Processed natural resources" we mean products from the processing of certain natural resources like petroleum products, processed agro allied products, and so on. We are a company that fulfill our promises, and are poised to deliver value for money.</p>
+</div>
+
+<button class="accordion">Our History</button>
+<div class="panel">
+  <p>ENERGY RANSOMS LTD is a comprehensive and well structured company based within the Surulere axis. We are a registered business with the Corporate Affairs Commision as contained in the Companies and Allied Matters Act (C.A.M.A.), 1990 and are incorporated for Petroleum Products Trade. We were incorporated in the year 2015; and since then have been one of the notable coporate organizations in Nigeria in the natural resources industry. With our incorporation dated not too far back, we have acquired, and have in our custody, very experienced hands to deliver on whatever demands that are placed on our shoulders.We also paticipate in Allied (Alternative) Energy Projects like Solar energy powering of ATMs, to mention a few. Soonest we will commence the conversion of certain important Oil refinery by-products to marketable industrial input chemicals. We are poised to offer excellent customer services and also make sure our customers get real value for what ever they pay for..</p>
+</div>
+
+<button class="accordion">Our Experience & Services</button>
+<div class="panel">
+  <p>We are a non-oil producing or exporting company that deals in natural resources like agro products, agro allied alternative energy poducts like "Wood Charcoal" and so on. Our expertise also cover supply of petroleum products for local use as well as the export of ordered products to foreign clients<i>(foreign trade of locally sources products) </i>and in consideration of our current climate change, we also deal on equipment for alternative sources of energy like Solar power generation equipment and other renewable energy products.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Our Vision.</h2>
+      <p>To be the best and most reliable natural resources and processed natural resources trading Company in Nigeria.</p>
+      <h2>Our Mission</h2>
+      <ol>
+	  
+	  <li>To always have the right products available and in the required amount by our customers</li>
+	  <li>To ensure utmost transparency in our dealings with all our clients.</li>
+	  <li>To be well informed and properly grounded in the affairs of the sector of the economy in which this business is a part of.</li>
+	  <li>To render timely deliveries of ordered products to customers regardless of geographical location</li>
+	  </ol>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><i>Copyright</i> 2017.</p>
+</div>
+
+</body>
+</html>
